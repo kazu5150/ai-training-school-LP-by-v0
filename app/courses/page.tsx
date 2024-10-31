@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import Link from "next/link"
 
 export default function Courses() {
   return (
@@ -45,6 +46,11 @@ export default function Courses() {
               </ul>
             </CardContent>
           </Card>
+        </div>
+        <div className="text-center mt-8">
+          <Link href="/" className="text-primary hover:underline">
+            ホームに戻る
+          </Link>
         </div>
       </div>
     </section>

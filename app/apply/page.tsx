@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Apply() {
   return (
@@ -34,6 +35,11 @@ export default function Apply() {
             </form>
           </CardContent>
         </Card>
+        <div className="text-center mt-8">
+          <Link href="/" className="text-primary hover:underline">
+            ホームに戻る
+          </Link>
+        </div>
       </div>
     </section>
   )
