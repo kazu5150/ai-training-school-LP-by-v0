@@ -6,6 +6,7 @@ export default function Courses() {
     <section className="py-24">
       <div className="container">
         <h2 className="text-3xl font-bold text-center mb-12">提供コース</h2>
+        <img src="https://picsum.photos/800/400" alt="Courses Image" className="mx-auto mb-8" />
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <Card>
             <CardHeader>
@@ -36,7 +37,7 @@ export default function Courses() {
           <Card>
             <CardHeader>
               <CardTitle>AIビジネス戦略コース</CardTitle>
-              <CardDescription>AIをビジネスに活用する方法を学ぶ</CardDescription>
+              <CardDescription>AIをビジネスに活用す��方法を学ぶ</CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="list-disc list-inside">

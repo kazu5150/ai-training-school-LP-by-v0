@@ -36,6 +36,7 @@ export function AiTrainingSchoolLp() {
           <p className="mx-auto mt-4 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
             最先端のAI技術を学び、未来のテクノロジーリーダーになるためのトレーニングスクールです。
           </p>
+          <img src="/images/jerry_unsplash.jpg" alt="AI Image" className="mx-auto my-8 w-full max-w-xl" />
           <Button className="mt-8" size="lg">
             無料カウンセリングを予約
           </Button>

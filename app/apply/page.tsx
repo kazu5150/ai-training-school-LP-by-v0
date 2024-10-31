@@ -8,8 +8,9 @@ import Link from "next/link"
 export default function Apply() {
   return (
     <section className="py-24 bg-gray-100 dark:bg-gray-800">
-      <div className="container max-w-2xl">
+      <div className="container max-w-2xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">無料カウンセリングを申し込む</h2>
+        <img src="https://picsum.photos/800/400" alt="Apply Image" className="mx-auto mb-8" />
         <Card>
           <CardContent className="pt-6">
             <form className="space-y-4">

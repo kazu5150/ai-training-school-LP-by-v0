@@ -7,6 +7,7 @@ export default function Features() {
     <section className="py-24 bg-gray-100 dark:bg-gray-800">
       <div className="container">
         <h2 className="text-3xl font-bold text-center mb-12">AIトレーニングスクールの特徴</h2>
+        <img src="https://picsum.photos/800/400" alt="Features Image" className="mx-auto mb-8" />
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <Card>
             <CardHeader>
